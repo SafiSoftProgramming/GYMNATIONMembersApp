@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_splash_pg"
+    tools:context=".BeforLoginActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical"
+        android:id="@+id/main">
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="0dp"
+            android:src="@drawable/ic_logo_text_hand_shado_activty" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_tow_steps_befor_login" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-150dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_line_down_up" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginTop="-200dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="65dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/ic_text_choose_your_gym" />
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/gifTextView_conn_status"
+                        android:layout_width="245dp"
+                        android:layout_height="245dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        app:lottie_rawRes="@raw/ic_choose_gym"
+                        app:lottie_autoPlay="true"
+                        app:lottie_loop="true"/>
+                </LinearLayout>
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-225dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_line_up_down" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginTop="-200dp"
+                    android:orientation="horizontal">
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        app:lottie_rawRes="@raw/ic_phone_qrcode_scan"
+                        app:lottie_autoPlay="true"
+                        app:lottie_loop="true"/>
+
+                    <ImageView
+                        android:layout_width="160dp"
+                        android:layout_height="55dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/ic_text_scan_qr_on_card" />
+
+                </LinearLayout>
+
+                <ImageButton
+                    android:id="@+id/btn_continue"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/btn_eff_contu_to_log_in" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>

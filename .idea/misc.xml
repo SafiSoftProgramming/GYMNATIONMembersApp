@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/mostz/Desktop/GYM Project/android/GYMNATIONMembers/app/src/main/res/layout/members_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mostz/Desktop/GYMNATIONMembers/app/src/main/res/drawable/btn_eff_accept_permissions.xml" value="0.29" />
+        <entry key="..\:/Users/mostz/Desktop/GYMNATIONMembers/app/src/main/res/drawable/btn_eff_log_out.xml" value="0.208" />
+        <entry key="..\:/Users/mostz/Desktop/GYMNATIONMembers/app/src/main/res/layout/activity_befor_login.xml" value="0.2838541666666667" />
+        <entry key="..\:/Users/mostz/Desktop/GYMNATIONMembers/app/src/main/res/layout/activity_home.xml" value="0.24479166666666666" />
+        <entry key="..\:/Users/mostz/Desktop/GYMNATIONMembers/app/src/main/res/layout/activity_settings.xml" value="0.1703125" />
+        <entry key="..\:/Users/mostz/Desktop/GYMNATIONMembers/app/src/main/res/layout/activity_spalsh.xml" value="0.1" />
+        <entry key="..\:/Users/mostz/Desktop/GYMNATIONMembers/app/src/main/res/layout/app_permissions_dialog.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mostz/Desktop/GYMNATIONMembers/app/src/main/res/layout/gyms_list.xml" value="0.67" />
+        <entry key="..\:/Users/mostz/Desktop/GYMNATIONMembers/app/src/main/res/layout/home_list.xml" value="0.24479166666666666" />
+        <entry key="..\:/Users/mostz/Desktop/GYMNATIONMembers/app/src/main/res/layout/member_at_gym_header.xml" value="0.30052083333333335" />
+        <entry key="..\:/Users/mostz/Desktop/GYMNATIONMembers/app/src/main/res/layout/members_list.xml" value="0.30052083333333335" />
+        <entry key="..\:/Users/mostz/Desktop/GYMNATIONMembers/app/src/main/res/layout/notification_header.xml" value="0.30052083333333335" />
+        <entry key="..\:/Users/mostz/Desktop/GYMNATIONMembers/app/src/main/res/layout/notification_list.xml" value="0.506155950752394" />
+        <entry key="..\:/Users/mostz/Desktop/GYMNATIONMembers/app/src/main/res/layout/user_and_plan_header.xml" value="0.30052083333333335" />
+        <entry key="..\:/Users/mostz/Desktop/GYMNATIONMembers/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2925" />
+        <entry key="..\:/Users/mostz/Desktop/GYMNATIONMembers/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2925" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_splash_pg"
+    tools:context=".ScannerNotAcceptedActivity">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/linearLayout4"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="0dp"
+            android:src="@drawable/ic_logo_text_hand_shado_activty" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_marginBottom="50dp"
+           android:orientation="vertical"
+           android:layout_gravity="center"
+           android:gravity="center">
+
+
+           <com.airbnb.lottie.LottieAnimationView
+               android:id="@+id/gifTextView_conn_status"
+               android:layout_width="245dp"
+               android:layout_height="245dp"
+               android:layout_gravity="center"
+               app:lottie_rawRes="@raw/ic_some_thing_worng_login"
+               app:lottie_autoPlay="true"
+               app:lottie_loop="true"/>
+
+           <ImageView
+               android:layout_width="300dp"
+               android:layout_height="40dp"
+               android:layout_marginTop="10dp"
+               android:layout_gravity="center_horizontal"
+               android:src="@drawable/ic_text_something_went_wrong" />
+
+
+           <ImageView
+               android:layout_width="300dp"
+               android:layout_height="40dp"
+               android:layout_marginTop="10dp"
+               android:layout_gravity="center_horizontal"
+               android:src="@drawable/ic_text_make_sure_to_choose" />
+
+           <ImageView
+               android:layout_width="300dp"
+               android:layout_height="40dp"
+               android:layout_marginTop="10dp"
+               android:layout_gravity="center_horizontal"
+               android:src="@drawable/ic_text_make_sure_to_scan_valed_qr" />
+
+
+           <ImageButton
+               android:id="@+id/btn_try_agin_login"
+               android:layout_width="300dp"
+               android:layout_height="40dp"
+               android:layout_marginTop="50dp"
+               android:layout_marginBottom="10dp"
+               android:layout_gravity="center_horizontal"
+               android:background="@drawable/btn_eff_try_again_login" />
+
+
+
+       </LinearLayout>
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

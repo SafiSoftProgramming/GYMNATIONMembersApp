@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">GYM NATION</string>
+    <string name="scanner_error_message">can\'t scann</string>
+    <string name="Server_URL">http://safisoft.net/gym-nation/</string>
+
+    <string name="Gym_list_choose_php">gym_nation_all_gyms.php</string>
+
+    <string name="Home_adpost_php">gym_nation_adpost_api.php</string>
+
+    <string name="Member_conn_php">gym_nation_member_api.php</string>
+
+    <string name="Member_search_php">gym_nation_search_member_api.php</string>
+
+    <string name="Notification_php">gym_nation_notification_api.php</string>
+
+
+    <string name="URL_massage">gym_nation_notification_api.php</string>
+    <string name="URL_post">gym_nation_adpost_api.php</string>
+    <string name="URL_membersatgym">gym_nation_member_api.php</string>
+    <string name="URL_workout">gym_nation_workout_history_api.php</string>
+
+
+    <string name="WorkOut_Img_Folder_Name">workout_imgs/</string>
+    <string name="WorkOut_Img_Type">.png</string>
+
+    <string name="Notification_Icons_Folder_Name">notification_icons/</string>
+    <string name="Notification_Icon_Type">.png</string>
+
+    <string name="facebook_app_id">386731822480151</string>
+    <string name="facebook_client_token">658bb29414d7a569f37fb62f7152f393</string>
+
+
+</resources>
